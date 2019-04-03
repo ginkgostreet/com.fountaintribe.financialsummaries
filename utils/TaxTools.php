@@ -371,7 +371,7 @@ class TaxTools{
 	 
 
 	function process_tax_year( &$values, &$contactIDs , &$ct_prefix_id,  &$token_long ,  &$only_tax_deductable_parm,
-			&$start_date, &$end_date, &$format_parm, &$font_size, $only_show_totals = false ){
+			&$start_date, &$end_date, &$format_parm, &$font_size = '', $only_show_totals = false ){
 				 
 				$need_subtotals = false;
 				//print "<Br> format parm: ".$format_parm;
